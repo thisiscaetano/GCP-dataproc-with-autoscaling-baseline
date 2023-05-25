@@ -1,5 +1,5 @@
 resource "google_dataproc_autoscaling_policy" "asp" {
-  project   = "br-carrefour-devops"
+  project   = ""
   policy_id = "dataproc-policy"
   location  = var.region
   worker_config {
